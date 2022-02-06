@@ -109,8 +109,8 @@ macro_rules! solitaire {
         }
 
         pub use instruction::solitaire;
-        #[cfg(not(feature = "no-entrypoint"))]
-        solana_program::entrypoint!(solitaire);
+        // #[cfg(not(feature = "no-entrypoint"))]
+        // solana_program::entrypoint!(solitaire);
     }
 }
 

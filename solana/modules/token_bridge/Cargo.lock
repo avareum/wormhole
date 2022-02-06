@@ -406,7 +406,7 @@ dependencies = [
  "borsh",
  "clap",
  "hex",
- "rand 0.7.3",
+ "rand 0.8.4",
  "shellexpand",
  "solana-clap-utils",
  "solana-cli-config",
